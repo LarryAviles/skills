@@ -3,7 +3,7 @@
         <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg">
             <div class="p-6 text-gray-900">
                 <p class="text-blue font-extrabold text-5xl p-4">
-                    {{ $skillId ? 'Editar Habilidad' : 'Crear Habilidad' }}
+                    {{ $skillId ? 'Ver Habilidad' : 'Crear Habilidad' }}
                 </p>
                 <form class="flex flex-col p-24"
                       wire:submit.prevent="save">
